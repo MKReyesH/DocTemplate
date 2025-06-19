@@ -9,7 +9,7 @@ baseurl: "/DocTemplate"
 search_enabled: true
 auto_page_title: true
 
-remote_theme: zendesk/jekyll-theme-zendesk-garden@0.7.3
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
 
 plugins:
   - jekyll-remote-theme
