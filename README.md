@@ -1,1 +1,3 @@
 # DocTemplate
+
+Testing documentation template

@@ -1,0 +1,11 @@
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.3.0
+
+search_enabled: true
+version: false
+auto_page_title: true
+
+plugins:
+  - jekyll-remote-theme
+
+sidebar:
+  - index
