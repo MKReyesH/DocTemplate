@@ -1,51 +1,21 @@
-title: Zendesk Garden Jekyll Theme
-description: A Jekyll theme using the Zendesk Garden design patterns
+sidebar:
+  - index
+  - page1
+  - page2
 
-permalink: pretty
+url: "https://mkreyesh.github.io" 
+baseurl: "/DocTemplate" 
 
 search_enabled: true
 auto_page_title: true
 
-mermaid_enabled: true
-mermaid_theme: forest
+remote_theme: zendesk/jekyll-theme-zendesk-garden@0.7.3
 
-sidebar:
-  - getting-started
-  - label: Customization
-    children:
-      - sidebar
-      - search
-      - relative-nav
-      - additional-config
-  - development
+plugins:
+  - jekyll-remote-theme
 
-highlighter: rouge
 markdown: kramdown
 kramdown:
-  input: GFM
-  auto_ids: true
-  hard_wrap: false
-  syntax_highlighter: rouge
-
-exclude:
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - .prettierrc
-  - .prettierignore
-  - .tool-versions
-  - Gemfile
-  - LICENSE*
-  - node_modules
-  - package.json
-  - package-lock.json
-  - README*
-  - '*.gemspec'
-  - '*.config.js'
-
-defaults:
-  - scope:
-      path: ''
-      type: 'pages'
-    values:
-      layout: default
+  math_engine: mathjax
+  math_engine_opts:
+    enable_dollar_delimiter: true
