@@ -13,7 +13,7 @@ z.onSearchReady = (ready) => {
 
 const initSearch = (query) => {
   const request = new XMLHttpRequest()
-  request.open('GET', '{{ "/assets/js/search_data.json" | relative_url }}', true)
+  request.open('GET', '{{ "/assets/js/search_data.json" | absolute_url }}', true)
 
   request.onload = () => {
     if (request.status >= 200 && request.status < 400) {
@@ -80,7 +80,7 @@ const submitSearch = (event) => {
   event.preventDefault()
   const input = document.getElementById('search_input')
   const query = input?.value
-  const search_results_url = "{{ '/assets/html/search_results' | relative_url }}"
+  const search_results_url = "{{ '/assets/html/search_results' | absolute_url }}"
 
   if (query) {
     window.location = `${search_results_url}?q=${query}`
