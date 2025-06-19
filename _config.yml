@@ -2,6 +2,7 @@ sidebar:
   - index
   - page1
   - page2
+  - page3
 
 url: "https://mkreyesh.github.io" 
 baseurl: "/DocTemplate" 
