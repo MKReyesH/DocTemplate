@@ -3,4 +3,6 @@ id: index
 title: Main page
 ---
 
-Landing page
+# Main title
+
+Welcome to the landing page!
