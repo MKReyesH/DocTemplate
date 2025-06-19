@@ -1,13 +1,16 @@
-remote_theme: zendesk/jekyll-theme-zendesk-garden@main
+sidebar:
+  - page1
+  - page1
+
+url: "https://mkreyesh.github.io" 
+baseurl: "/DocTemplate" 
 
 search_enabled: true
-baseurl: "/docs"
-version: false
 auto_page_title: true
+version: false
+
+remote_theme: zendesk/jekyll-theme-zendesk-garden@main
 
 plugins:
   - jekyll-remote-theme
 
-sidebar:
-  - page1
-  - page1
