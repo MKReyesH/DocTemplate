@@ -1,3 +1,5 @@
+title: Test site
+
 sidebar:
   - index
   - label: Topic 1
@@ -7,6 +9,7 @@ sidebar:
   - label: Topic 2
     children:
     - page3
+  - about
 
 url: "https://mkreyesh.github.io" 
 baseurl: "/DocTemplate" 
