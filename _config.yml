@@ -1,4 +1,4 @@
-title: Test site
+title: Vademecum
 
 sidebar:
   - index
@@ -10,20 +10,20 @@ sidebar:
     children:
     - page3
   - about
-
+  
 url: "https://mkreyesh.github.io" 
 baseurl: "/DocTemplate" 
 
 search_enabled: true
 auto_page_title: true
 
-remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
-
-plugins:
-  - jekyll-remote-theme
-
 markdown: kramdown
 kramdown:
   math_engine: mathjax
   math_engine_opts:
     enable_dollar_delimiter: true
+
+remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
+
+plugins:
+  - jekyll-remote-theme
