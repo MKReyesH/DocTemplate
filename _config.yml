@@ -14,6 +14,10 @@ baseurl: "/DocTemplate"
 search_enabled: true
 auto_page_title: true
 
+logo_enabled: false
+
+github_logo_enabled: false
+
 remote_theme: zendesk/jekyll-theme-zendesk-garden@v0.7.3
 
 plugins:
