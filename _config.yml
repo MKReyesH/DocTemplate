@@ -8,4 +8,5 @@ plugins:
   - jekyll-remote-theme
 
 sidebar:
-  - index
+  - pages/page1
+  - pages/page1
