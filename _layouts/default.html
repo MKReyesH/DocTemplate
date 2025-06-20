@@ -45,7 +45,12 @@
           </div>
           {% if site.sidebar %} {% include sidebar.html %} {% endif %}
         </div>
+        {% comment %}
         {% include footer.html %}
+        {% endcomment %}
+        <footer class="site-footer">
+            <span class="site-footer-credits">Last site refresh: {{ site.time | date: "%b %Y" }}</span>
+        </footer>
       </div>
     </div>
     {% if site.mermaid_enabled != false %}
