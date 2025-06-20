@@ -57,14 +57,21 @@ int suma (){
 }
 ```
 
-One can make flowcharts
+One can make Top-Down flowcharts
 
 ```mermaid
 graph TD;
     A-->B;
     A-->C;
-    B-->D;
+```
+and Left-Right flowcharts
+
+```mermaid
+graph LR;
+    A-->B;
     C-->D;
+    B-->E;
+    D-->E;
 ```
 
 Finally, one can also insert `html` code directly:
