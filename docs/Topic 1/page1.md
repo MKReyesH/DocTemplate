@@ -3,9 +3,13 @@ id: page1
 title: Page 1
 ---
 
-## Section test
+## This is a section
 
-One can insert `latex` equations in-line, like $x^2+y^2=r^2$, or in their own line, like
+With some text
+
+### This is a subsection
+
+One can use in-line LaTeX equations, like $x^2+y^2=r^2$, or in their own line, like
 
 $$x=\frac{-b\pm \sqrt{b^2-4ac}}{2a}$$
 
@@ -21,9 +25,28 @@ And a sorted list:
 2. Element 2
 3. Element 3
 
-One can also insert a quote:
+And a nested list:
 
-> "Si está en internet, debe ser cierto..." - Abraham Lincoln
+- level 1 item
+  - level 2 item
+  - level 2 item
+    - level 3 item
+    - level 3 item
+
+This is a table:
+
+| Head 1 | Head 2 | Head 3 |
+|:-------|:-------|:-------|
+| a      | b      | c      |
+| d      | e      | f      |
+
+This is a quote:
+
+> "If it is on the internet... it must be true." - Abraham Lincoln
+
+This is a picture
+
+![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
 One can also insert `in-line code`. But one can also insert code with highlighted syntax
 
@@ -34,11 +57,21 @@ int suma (){
 }
 ```
 
+One can make flowcharts
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
 Finally, one can also insert `html` code directly:
 
 <iframe width="448" height="252" src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen></iframe>
 
-## Another section
+## This is another section
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dolor maximus, volutpat metus et, vehicula sem. Proin nisi tellus, fermentum et ullamcorper at, efficitur nec mauris. Nulla sodales pellentesque nibh, at pellentesque velit scelerisque a. Nulla ac neque sed ipsum mattis congue. Vivamus id lobortis sapien, hendrerit bibendum mi. Nullam magna mauris, vehicula sed dignissim eu, pulvinar et lacus. Sed vitae mollis mi. Aliquam magna ex, consequat quis pharetra sit amet, tristique nec arcu. Morbi purus odio, fermentum sit amet tincidunt eu, finibus egestas enim. Aliquam erat volutpat. Pellentesque at lacus vitae sem posuere convallis vitae et augue. Donec sit amet cursus sem.
 
