@@ -48,8 +48,10 @@
         {% comment %}
         {% include footer.html %}
         {% endcomment %}
-        <footer class="site-footer">
+        <footer class="chrome:footer">
+          <div class="chrome:footer_item">
             <span class="site-footer-credits">Last site refresh: {{ site.time | date: "%b %Y" }}</span>
+          </div>
         </footer>
       </div>
     </div>
