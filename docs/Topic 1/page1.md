@@ -74,7 +74,10 @@ graph LR;
     D-->E;
 ```
 
-Finally, one can also insert `html` code directly:
+This is an internal link to [Amazing section](/docs/Topics 2/page3.md#amazing-section).
+This is an external link to [Google](https://www.google.com/).
+
+Finally, one can also insert HTML code directly:
 
 <iframe width="448" height="252" src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen></iframe>
 

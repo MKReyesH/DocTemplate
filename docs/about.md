@@ -9,5 +9,5 @@ We are the world, we are tha childran.
 
 ## Site information
 
-- Site generated with <a href="https://pages.github.com">GitHub Pages</a>.
-- Theme based on <a href="https://github.com/zendesk/jekyll-theme-zendesk-garden">Zendesk Garden theme</a>.
+- Site generated with [Github Pages](https://pages.github.com).
+- Theme based on [Zendesk Garden theme](https://github.com/zendesk/jekyll-theme-zendesk-garden).
