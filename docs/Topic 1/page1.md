@@ -75,10 +75,12 @@ graph LR;
 ```
 
 This is an internal link to [another section in the same page](#this-is-a-section).
-This is an internal link to [another section on another page](#amazing-section).
+This is an internal link to [another section on another page]({{ site.baseurl }}{% link docs/Topics 2/page3.md %}#amazing-section).
 This is an external link to [Google](https://www.google.com/).
 
-{{ site.baseurl }}
+{% link docs/Topics 2/page3.md %}
+{% link /docs/Topics 2/page3.md %}
+{% link page3.md %}
 
 Finally, one can also insert HTML code directly:
 
