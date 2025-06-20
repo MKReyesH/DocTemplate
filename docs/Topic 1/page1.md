@@ -3,7 +3,7 @@ id: page1
 title: Page 1
 ---
 
-# Section test
+## Section test
 
 One can insert `latex` equations in-line, like $x^2+y^2=r^2$, or in their own line, like
 
@@ -38,7 +38,7 @@ Finally, one can also insert `html` code directly:
 
 <iframe width="448" height="252" src="https://www.youtube.com/embed/..." frameborder="0" allowfullscreen></iframe>
 
-# Another section
+## Another section
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non dolor maximus, volutpat metus et, vehicula sem. Proin nisi tellus, fermentum et ullamcorper at, efficitur nec mauris. Nulla sodales pellentesque nibh, at pellentesque velit scelerisque a. Nulla ac neque sed ipsum mattis congue. Vivamus id lobortis sapien, hendrerit bibendum mi. Nullam magna mauris, vehicula sed dignissim eu, pulvinar et lacus. Sed vitae mollis mi. Aliquam magna ex, consequat quis pharetra sit amet, tristique nec arcu. Morbi purus odio, fermentum sit amet tincidunt eu, finibus egestas enim. Aliquam erat volutpat. Pellentesque at lacus vitae sem posuere convallis vitae et augue. Donec sit amet cursus sem.
 
