@@ -74,7 +74,7 @@ graph LR;
     D-->E;
 ```
 
-This is an internal link to [Amazing section](/docs/Topics 2/page3.md#amazing-section).
+This is an internal link to a [Section on another page]({{ baseurl }}/docs/Topics 2/page3.md#amazing-section).
 This is an external link to [Google](https://www.google.com/).
 
 Finally, one can also insert HTML code directly:
