@@ -7,10 +7,4 @@ title: Page 3
 
 This is a super mega ultra chachi extra fantabulously wondrously humongous ginormous colossal gargantuan tremendous stratospheric cosmic galactic hyper mega transcendental paradigm shifting section number three.
 
-**Doubly Special Relativity (DSR).** It is a relativistic theory, in contrast with LIV.
-
-```mermaid
-graph TD;
-  BSR --> LIV;
-  BSR --> DSR;
-```
+Don't forget to visit the [QGMM Table](https://mkreyesh.github.io/QGMMTable/pages/table) of bounds of LIV.

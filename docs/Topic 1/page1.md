@@ -74,9 +74,8 @@ graph LR;
     D-->E;
 ```
 
-This is an internal link to [another section in the same page](#this-is-a-section).
-This is an internal link to [another section on another page]({{ site.baseurl }}{% link docs/Topic 2/page3.md %}#amazing-section).
-This is an external link to [Google](https://www.google.com/).
+This is an internal link to [a section in the same page](#this-is-a-section).
+This is an external link to [a section in another page](https://mkreyesh.github.io/DocTemplate/docs/Topic%202/page3.html#amazing-section).
 
 Finally, one can also insert HTML code directly:
 

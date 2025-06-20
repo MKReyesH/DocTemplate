@@ -5,7 +5,7 @@ title: About
 
 ## About us
 
-We are the world, we are tha childran.
+We are the world, we are the children.
 
 ## Site information
 
