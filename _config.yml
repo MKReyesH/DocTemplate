@@ -9,6 +9,8 @@ sidebar:
   - label: Topic 2
     children:
     - page3
+  - label: GitHub
+    url: https://github.com/MKReyesH/DocTemplate
   - about
   
 url: "https://mkreyesh.github.io" 
