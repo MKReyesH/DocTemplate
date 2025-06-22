@@ -9,6 +9,8 @@ sidebar:
   - label: Topic 2
     children:
     - page3
+  - label: QGMM Table
+    url: https://mkreyesh.github.io/QGMMTable/pages/table
   - label: GitHub
     url: https://github.com/MKReyesH/DocTemplate
   - about
