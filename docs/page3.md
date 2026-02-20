@@ -15,8 +15,8 @@ Lorentz Invariance Violation (LIV) appears in several approaches to Quantum Grav
 
 $$
 \begin{align}
-    E_a^2= & m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \\
-    E_a^2= & m * m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \\,
+    E_a^2=&m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \text{ or}\\
+    E_a^2=&m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{E_a}{E_\text{Pl}}\right)^n\right] \,,
     \label{eq:MDR_a}
 \end{align}
 $$
