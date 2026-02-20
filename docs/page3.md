@@ -45,7 +45,7 @@ the ultra-relativistic limit, the ratios $(m_a/p_a)^2$ and
 $\eta_a^{(n)}(p_a/E_\text{Pl})^n$ can be of comparable magnitude.
 
 Theoretical consistency is often ensured by embedding these dispersion
-relations \ref{eq:energy_a} within the Standard Model Extension (SME), a
+relations \eqref{eq:energy_a} within the Standard Model Extension (SME), a
 comprehensive Effective Field Theory (EFT) framework that includes all
 Lorentz-violating operators. A crucial feature of this framework is the
 relationship between CPT symmetry and the dimension of the operator
