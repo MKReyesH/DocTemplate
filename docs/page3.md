@@ -14,10 +14,11 @@ Don't forget to visit the [QGMM Table](https://mkreyesh.github.io/QGMMTable/page
 Lorentz Invariance Violation (LIV) appears in several approaches to Quantum Gravity (QG). A main consequence is the modification of particle dispersion relations. Generally, this modification can be parameterized as a series expansion:
 
 $$
-\begin{equation}
-    E_a^2=m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \,,
+\begin{align}
+    E_a^2= & m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \\
+    E_a^2= & m * m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \\,
     \label{eq:MDR_a}
-\end{equation}
+\end{align}
 $$
 
 where $E_a$, $p_a$, and $m_a$ denote the energy, momentum, and mass of particle type $a$, respectively. The correction is suppressed by the scale of new physics, $E_\text{Pl}$---typically identified with the Planck energy ($E_\text{Pl} \approx 1.22 \times 10^{19}$ GeV)---and its strength is characterized by the dimensionless coefficients $\eta_a^{(n)}$.
