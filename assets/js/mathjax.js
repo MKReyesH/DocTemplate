@@ -9,7 +9,8 @@ MathJax = {
     displayMath: [['$$', '$$'], ['\\[', '\\]']],
     
     processEscapes: true,       // Allows escaping of dollar signs (e.g., \$)
-    processEnvironments: true   // Processes LaTeX environments like \begin{align}
+    processEnvironments: true,  // Processes LaTeX environments like \begin{align}
+    tags: 'ams'                 // Enable equation numbers
   },
   options: {
     // Optional: specify HTML tags to skip when searching for math
