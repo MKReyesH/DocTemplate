@@ -14,10 +14,14 @@ Don't forget to visit the [QGMM Table](https://mkreyesh.github.io/QGMMTable/page
 Lorentz Invariance Violation (LIV) appears in several approaches to
 Quantum Gravity (QG). A main consequence is the modification of particle
 dispersion relations. Generally, this modification can be parameterized
-as a series expansion: $$\begin{equation}
+as a series expansion:
+
+$$\begin{equation}
     E_a^2=m_a^2+p_a^2 \left[1+\sum_{n=0}^{\infty} \eta_a^{(n)}\left(\frac{p_a}{E_\text{Pl}}\right)^n\right] \,,
     \label{eq:MDR_a}
-\end{equation}$$ where $E_a$, $p_a$, and $m_a$ denote the energy,
+\end{equation}$$
+
+where $E_a$, $p_a$, and $m_a$ denote the energy,
 momentum, and mass of particle type $a$, respectively. The correction is
 suppressed by the scale of new physics, $E_\text{Pl}$---typically
 identified with the Planck energy
@@ -29,16 +33,20 @@ modification is dominated by a single correction term of order $n$. The
 integer $n$ defines the order of the suppression, classifying models as
 energy independent ($n=0$), linear ($n=1$), or quadratic ($n=2$).
 Furthermore, for ultra-relativistic particles ($p_a \gg m_a$), the
-dispersion relation can be approximated as: $$\begin{equation}
+dispersion relation can be approximated as:
+
+$$\begin{equation}
     E_a \simeq p_a \left[ 1 + \frac{m_a^2}{2p_a^2} + \frac{\eta_a^{(n)}}{2} \left(\frac{p_a}{E_\text{Pl}}\right)^n \right] \,.
     \label{eq:energy_a}
-\end{equation}$$ It is worth noting that, even within the validity of
+\end{equation}$$
+
+It is worth noting that, even within the validity of
 the ultra-relativistic limit, the ratios $(m_a/p_a)^2$ and
 $\eta_a^{(n)}(p_a/E_\text{Pl})^n$ can be of comparable magnitude.
 
 Theoretical consistency is often ensured by embedding these dispersion
 relations [\[eq:energy_a\]](#eq:energy_a){reference-type="eqref"
-reference="eq:energy_a"} within the Standard Model Extension (SME), a
+reference="eq:energy_a"} \eqref{eq:energy_a} within the Standard Model Extension (SME), a
 comprehensive Effective Field Theory (EFT) framework that includes all
 Lorentz-violating operators. A crucial feature of this framework is the
 relationship between CPT symmetry and the dimension of the operator
